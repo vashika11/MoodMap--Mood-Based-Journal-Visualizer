@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>MoodMap: Mood-Based Journal Visualizer</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <div class="container">
+    <h1>MoodMap Journal</h1>
+    <form id="moodForm">
+      <label for="date">Date:</label>
+      <input type="date" id="date" required>
+      
+      <label for="mood">Mood:</label>
+      <select id="mood">
+        <option value="happy">😊 Happy</option>
+        <option value="sad">😢 Sad</option>
+        <option value="angry">😠 Angry</option>
+        <option value="neutral">😐 Neutral</option>
+      </select>
+      
+      <button type="submit">Add Entry</button>
+    </form>
+    
+    <div id="calendar"></div>
+  </div>
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>

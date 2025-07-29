@@ -1,0 +1,36 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f4f5f0ee;
+  margin: 1;
+  padding: 30px;
+}
+.container {
+  max-width: 600px;
+  margin: auto;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+}
+#moodForm input, select, button {
+  margin: 10px 0;
+  padding: 8px;
+  font-size: 16px;
+}
+#calendar {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 10px;
+}
+.day {
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  padding-top: 25px;
+  border-radius: 10px;
+  color: rgba(255, 255, 255, 0.963);
+}
+.happy { background-color: #fdd835; }
+.sad { background-color: #42a5f5; }
+.angry { background-color: #ef5350; }
+.neutral { background-color: #9e9e9e; }
