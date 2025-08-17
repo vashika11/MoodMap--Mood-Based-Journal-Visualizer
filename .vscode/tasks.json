@@ -1,0 +1,11 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "Live Preview",
+			"workspacePath": "c:\\Users\\HP\\Documents\\GitHub\\MoodMap--Mood-Based-Journal-Visualizer",
+			"problemMatcher": [],
+			"label": "Live Preview: Run Server"
+		}
+	]
+}
